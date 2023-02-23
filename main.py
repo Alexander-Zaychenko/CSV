@@ -1,5 +1,9 @@
 from data_sort import data_sort, data
 
-for i in data:
-    data_sort(i)
+
+print(data)
+data_sort(data)
+print(data)
+for i in data.keys():
+    print(data[i])
     print('')
